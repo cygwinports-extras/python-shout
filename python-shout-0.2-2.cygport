@@ -1,0 +1,6 @@
+ORIG_PN="shout-python"
+inherit distutils
+
+DESCRIPTION="Python libshout bindings"
+HOMEPAGE="http://www.icecast.org/"
+SRC_URI="http://downloads.us.xiph.org/releases/libshout/${ORIG_PN}-${PV}.tar.gz"

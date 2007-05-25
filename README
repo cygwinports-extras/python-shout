@@ -1,0 +1,60 @@
+python-shout
+------------------------------------------
+Python bindings to the libshout icecast client library.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  libshout3-2.2.2-1
+  python-2.5.1-1
+
+Build requirements:
+(besides corresponding devel packages)
+  cygwin-1.5.24-2
+  binutils-20060817-1
+  cygport-0.3.1-1
+  gcc-core-3.4.4-3
+  python-2.5.1-1
+
+Canonical website:
+  http://www.icecast.org/
+
+Canonical download:
+  http://downloads.us.xiph.org/releases/libshout/
+
+-------------------------------------------
+
+Build instructions:
+  unpack python-shout-0.2-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./python-shout-0.2-X.cygport all
+
+This will create:
+  /usr/src/python-shout-0.2-X-src.tar.bz2
+  /usr/src/python-shout-0.2-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/python2.5/site-packages/shout.dll
+  /usr/lib/python2.5/site-packages/shout_python-0.2-py2.5.egg-info
+  /usr/share/doc/Cygwin/python-shout-0.2.README
+  /usr/share/doc/python-shout-0.2/COPYING
+  /usr/share/doc/python-shout-0.2/INSTALL
+  /usr/share/doc/python-shout-0.2/README
+
+------------------
+
+Port Notes:
+
+----- version 0.2-2 -----
+Rebuilt for python-2.5.
+
+----- version 0.2-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
