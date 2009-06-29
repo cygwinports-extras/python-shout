@@ -1,4 +1,4 @@
 category: Python Audio Video
-requires: cygwin python libshout3
+requires: python libshout3
 sdesc: "Python bindings for libshout"
 ldesc: "Python bindings to the libshout icecast client library."
